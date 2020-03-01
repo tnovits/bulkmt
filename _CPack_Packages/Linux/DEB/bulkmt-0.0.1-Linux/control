@@ -1,0 +1,10 @@
+Package: bulkmt
+Version: 0.0.1
+Section: devel
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Installed-Size: 234
+Maintainer: tnovits@yandex.ru
+Description: bulkmt built using CMake
+

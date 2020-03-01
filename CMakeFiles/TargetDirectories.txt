@@ -1,0 +1,9 @@
+/home/travis/build/tnovits/bulkmt/CMakeFiles/install/strip.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/install/local.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/install.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/list_install_components.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/rebuild_cache.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/bulkmt.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/package.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/package_source.dir
+/home/travis/build/tnovits/bulkmt/CMakeFiles/edit_cache.dir

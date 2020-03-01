@@ -1,0 +1,1 @@
+/usr/local/clang-7.0.0/bin/clang++     CMakeFiles/bulkmt.dir/main.cpp.o  -o bulkmt -lpthread 
