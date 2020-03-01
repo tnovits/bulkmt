@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     commandPackage->addSubscriber(fileSubscriber);
     commandPackage->addSubscriber(coutSubscriber);
 
-    while( std::getline(std::cin, command) && command.size() > 0)
+    while( std::getline(std::cin, command))
     {
         commandPackage->addCommand(command);
     }

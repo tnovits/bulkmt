@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aeb95/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aeb95.dir/build.make CMakeFiles/cmTC_aeb95.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6d370/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d370.dir/build.make CMakeFiles/cmTC_6d370.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aeb95.dir/CheckSymbolExists.c.o
-/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_aeb95.dir/CheckSymbolExists.c.o   -c /home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_aeb95
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeb95.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_aeb95.dir/CheckSymbolExists.c.o  -o cmTC_aeb95 
-CMakeFiles/cmTC_aeb95.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_6d370.dir/CheckSymbolExists.c.o
+/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_6d370.dir/CheckSymbolExists.c.o   -c /home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6d370
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d370.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_6d370.dir/CheckSymbolExists.c.o  -o cmTC_6d370 
+CMakeFiles/cmTC_6d370.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
 clang-7: error: linker command failed with exit code 1 (use -v to see invocation)
-CMakeFiles/cmTC_aeb95.dir/build.make:86: recipe for target 'cmTC_aeb95' failed
-make[1]: *** [cmTC_aeb95] Error 1
+CMakeFiles/cmTC_6d370.dir/build.make:86: recipe for target 'cmTC_6d370' failed
+make[1]: *** [cmTC_6d370] Error 1
 make[1]: Leaving directory '/home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_aeb95/fast' failed
-make: *** [cmTC_aeb95/fast] Error 2
+Makefile:121: recipe for target 'cmTC_6d370/fast' failed
+make: *** [cmTC_6d370/fast] Error 2
 
 File /home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7c7d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7c7d2.dir/build.make CMakeFiles/cmTC_7c7d2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e136b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e136b.dir/build.make CMakeFiles/cmTC_e136b.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7c7d2.dir/CheckFunctionExists.c.o
-/usr/local/clang-7.0.0/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7c7d2.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7c7d2
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c7d2.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7c7d2.dir/CheckFunctionExists.c.o  -o cmTC_7c7d2 -lpthreads 
+Building C object CMakeFiles/cmTC_e136b.dir/CheckFunctionExists.c.o
+/usr/local/clang-7.0.0/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e136b.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e136b
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e136b.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e136b.dir/CheckFunctionExists.c.o  -o cmTC_e136b -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 clang-7: error: linker command failed with exit code 1 (use -v to see invocation)
-CMakeFiles/cmTC_7c7d2.dir/build.make:86: recipe for target 'cmTC_7c7d2' failed
-make[1]: *** [cmTC_7c7d2] Error 1
+CMakeFiles/cmTC_e136b.dir/build.make:86: recipe for target 'cmTC_e136b' failed
+make[1]: *** [cmTC_e136b] Error 1
 make[1]: Leaving directory '/home/travis/build/tnovits/bulkmt/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_7c7d2/fast' failed
-make: *** [cmTC_7c7d2/fast] Error 2
+Makefile:121: recipe for target 'cmTC_e136b/fast' failed
+make: *** [cmTC_e136b/fast] Error 2
 
 
